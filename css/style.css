@@ -1,0 +1,159 @@
+li {
+  display:inline;
+  margin-right: 25px;
+}
+
+.hero {
+  background-image: url(../images/background.jpeg);
+  background-position: center;
+  color: white;
+  height: 250px;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.hero p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.middleboxes {
+  width: 100%;
+  height: 600px;
+  background-color: gray;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 70px;
+}
+
+.green {
+  background-color: green;
+  color: white;
+  height: 200px;
+  text-align: center;
+  font-size: 30px;
+}
+.green p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+  height: 200px;
+  text-align: center;
+  font-size: 30px;
+}
+.blue p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.black {
+  background-color: black;
+  color: white;
+  height: 200px;
+  text-align: center;
+  font-size: 30px;
+}
+.black p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/*Breakpoint two*/
+
+@media (min-width: 479px) and (max-width: 767px){
+  .hero {
+    height: 300px;
+  }
+
+  .footer {
+    background-color: red;
+  }
+}
+
+/*breakpoint 3*/
+
+@media (min-width: 768px) and (max-width: 978px){
+  .hero {
+    height: 300px;
+  }
+
+  .middleboxes {
+    float: left;
+    width: 29%;
+    height: 600px;
+    margin: 2%;
+  }
+
+
+  .textparagraph {
+    width: 48%;
+    margin: 1%;
+  }
+
+  .clear {
+    clear:both;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+  .footer {clear: both;}
+}
+
+/*breakpoint 4*/
+
+@media (min-width:979px) {
+  .middleboxes {
+    float: left;
+    width: 29%;
+    height: 600px;
+    margin: 2%;
+  }
+
+  .textparagraph {
+    width: 48%;
+    margin: 1%;
+
+  }
+
+  .textboxes{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .clear {
+    clear:both;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+
+  .middlecontent {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .footer {clear: both;}
+}
